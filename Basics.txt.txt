@@ -1,0 +1,123 @@
+🔷 1. SDLC (Software Development Life Cycle)
+
+SDLC is a structured process followed for developing software. It outlines phases involved from idea to delivery and maintenance.
+
+🔁 Phases of SDLC:
+
+Requirement Gathering – Understand what the user wants.
+
+Design – Create architecture and design plans.
+
+Implementation (Coding) – Developers write the code.
+
+Testing – Validate that the software works correctly.
+
+Deployment – Make the software available to users.
+
+Maintenance – Fix bugs or update features post-deployment.
+
+🔸 Common SDLC Models:
+
+Waterfall – Sequential, rigid, step-by-step.
+
+V-Model – Testing phase planned in parallel to development.
+
+Iterative – Develop in small pieces and improve each time.
+
+Spiral – Risk-driven iterative model.
+
+Agile – Iterative and flexible.
+
+🔷 2. Software Testing and Its Types
+
+Software Testing is the process of evaluating a system to find defects and ensure it meets the required quality.
+
+🔸 Types of Testing:
+
+➤ Based on execution:
+
+Manual Testing – Performed by humans.
+
+Automated Testing – Performed using tools like Selenium, JUnit, etc.
+
+➤ Based on knowledge of code:
+
+White-box Testing – Tests internal logic (done by developers).
+
+Black-box Testing – Tests functionality without seeing code (done by testers).
+
+Gray-box Testing – Mix of both.
+
+➤ Based on test level:
+
+Unit Testing – Test individual code units/functions.
+
+Integration Testing – Test combined modules.
+
+System Testing – Test entire application.
+
+Acceptance Testing – Validate software with client requirements.
+
+➤ Other types:
+
+Regression Testing – Ensure old features still work after changes.
+
+Performance Testing – Check speed and efficiency.
+
+Security Testing – Find vulnerabilities.
+
+Usability Testing – Check user-friendliness.
+
+🔷 3. Agile Methodology
+
+Agile is an iterative and incremental software development approach that promotes collaboration, flexibility, and customer feedback.
+
+🔸 Key Concepts:
+
+Sprints – Short development cycles (usually 2-4 weeks).
+
+Scrum – Popular Agile framework using roles like Scrum Master, Product Owner, etc.
+
+Daily Standups – Short meetings to sync progress.
+
+Backlog – Prioritized list of tasks/features.
+
+🔸 Agile Benefits:
+
+Fast delivery
+
+Customer collaboration
+
+Easy to adapt to changes
+
+Frequent feedback
+
+🔷 4. CI/CD (Continuous Integration & Continuous Development)
+
+CI/CD is a DevOps practice that automates and speeds up software delivery.
+
+✅ Continuous Integration (CI):
+
+Developers push code frequently to a shared repository.
+
+Code is automatically built and tested.
+
+Ensures code changes don’t break the application.
+
+Tools: Jenkins, GitHub Actions, Travis CI.
+
+✅ Continuous Delivery/Deployment (CD):
+
+Delivery: Automatically prepares builds for release, manual approval for deployment.
+
+Deployment: Automatically releases builds to production without manual approval.
+
+🔸 CI/CD Benefits:
+
+Faster releases
+
+Early bug detection
+
+Reduced integration issues
+
+Reliable and repeatable deployments
