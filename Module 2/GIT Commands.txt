@@ -1,0 +1,54 @@
+| Command           | Explanation                                  |
+| ----------------- | -------------------------------------------- |
+| `git init`        | Initializes a new Git repository.            |
+| `git clone <url>` | Creates a local copy of a remote repository. |
+
+
+| Command               | Explanation                                     |
+| --------------------- | ----------------------------------------------- |
+| `git add <file>`      | Stages file(s) for the next commit.             |
+| `git commit -m "msg"` | Saves changes to the repository with a message. |
+| `git status`          | Shows current changes and staging status.       |
+| `git log`             | Displays commit history.                        |
+| `git log --oneline`   | Shows a compact view of commit history.         |
+
+
+| Command                  | Explanation                                       |
+| ------------------------ | ------------------------------------------------- |
+| `git branch`             | Lists all branches.                               |
+| `git branch <name>`      | Creates a new branch.                             |
+| `git checkout <branch>`  | Switches to the specified branch.                 |
+| `git checkout -b <name>` | Creates and switches to a new branch.             |
+| `git merge <branch>`     | Merges the specified branch into the current one. |
+| `git rebase <branch>`    | Moves commits to base on another branch.          |
+
+
+| Command         | Explanation                                          |
+| --------------- | ---------------------------------------------------- |
+| `git remote -v` | Lists configured remote repositories.                |
+| `git fetch`     | Downloads changes from the remote but doesn’t merge. |
+| `git pull`      | Fetches and merges changes from the remote.          |
+| `git push`      | Uploads local commits to the remote.                 |
+
+
+| Command             | Explanation                                 |
+| ------------------- | ------------------------------------------- |
+| `git diff`          | Shows changes not yet staged.               |
+| `git diff --staged` | Shows staged but not yet committed changes. |
+| `git show <commit>` | Shows details of a specific commit.         |
+
+
+| Command                  | Explanation                                        |
+| ------------------------ | -------------------------------------------------- |
+| `git reset <file>`       | Unstages a file.                                   |
+| `git reset --hard`       | Discards all changes and resets to last commit.    |
+| `git checkout -- <file>` | Restores file to last committed version.           |
+| `git revert <commit>`    | Creates a new commit that undoes the given commit. |
+
+
+
+| Command               | Explanation                                   |
+| --------------------- | --------------------------------------------- |
+| `git clean -f`        | Removes untracked files.                      |
+| `git config`          | Sets Git configuration (like username/email). |
+| `git config --global` | Sets config globally for all repositories.    |
